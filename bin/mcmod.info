@@ -1,0 +1,16 @@
+[
+{
+  "modid": "campdavid",
+  "name": "Camp David",
+  "description": "The Traditions of Camp David.. Beauty",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Nay-nay", "David", "Dan", "Tyson"],
+  "credits": "This is for Eskimo",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

@@ -1,0 +1,13 @@
+Symbol range map extraction starting
+Processing 3 files
+startProcessing "campdavid\CampDavid.java" md5: bdebdf3b2818862ec4a135e65b632ede
+endProcessing "campdavid\CampDavid.java"
+
+startProcessing "campdavid\blocks\BasicBlock.java" md5: 778d0feba28b2b7f1b7136bf01f67b21
+Cache Hit!
+endProcessing "campdavid\blocks\BasicBlock.java"
+
+startProcessing "campdavid\init\CampDavidBlocks.java" md5: 144d3799224ca1fab9f4320802250975
+Cache Hit!
+endProcessing "campdavid\init\CampDavidBlocks.java"
+

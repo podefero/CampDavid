@@ -1,0 +1,196 @@
+Symbol range map extraction starting
+Processing 3 files
+startProcessing "campdavid\CampDavid.java" md5: bdebdf3b2818862ec4a135e65b632ede
+@|campdavid\CampDavid.java|8|17|campdavid|package|campdavid|(file)
+Class Start: campdavid.CampDavid
+   @|campdavid\CampDavid.java|814|817|Mod|class|net.minecraftforge.fml.common.Mod
+   @|campdavid\CampDavid.java|818|823|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|campdavid\CampDavid.java|826|835|CampDavid|class|campdavid.CampDavid
+   @|campdavid\CampDavid.java|836|841|MODID|field|campdavid.CampDavid|MODID
+   @|campdavid\CampDavid.java|843|847|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|campdavid\CampDavid.java|850|859|CampDavid|class|campdavid.CampDavid
+   @|campdavid\CampDavid.java|860|864|NAME|field|campdavid.CampDavid|NAME
+   @|campdavid\CampDavid.java|866|873|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|campdavid\CampDavid.java|876|885|CampDavid|class|campdavid.CampDavid
+   @|campdavid\CampDavid.java|886|893|VERSION|field|campdavid.CampDavid|VERSION
+   @|campdavid\CampDavid.java|908|917|CampDavid|class|campdavid.CampDavid
+   @|campdavid\CampDavid.java|1023|1029|String|class|java.lang.String
+   @|campdavid\CampDavid.java|1023|1029|String|class|java.lang.String
+   @|campdavid\CampDavid.java|1030|1035|MODID|field|campdavid.CampDavid|MODID|
+   @|campdavid\CampDavid.java|1075|1081|String|class|java.lang.String
+   @|campdavid\CampDavid.java|1075|1081|String|class|java.lang.String
+   @|campdavid\CampDavid.java|1082|1086|NAME|field|campdavid.CampDavid|NAME|
+   @|campdavid\CampDavid.java|1126|1132|String|class|java.lang.String
+   @|campdavid\CampDavid.java|1126|1132|String|class|java.lang.String
+   @|campdavid\CampDavid.java|1133|1140|VERSION|field|campdavid.CampDavid|VERSION|
+   @|campdavid\CampDavid.java|1173|1179|Logger|class|org.apache.logging.log4j.Logger
+   @|campdavid\CampDavid.java|1173|1179|Logger|class|org.apache.logging.log4j.Logger
+   @|campdavid\CampDavid.java|1180|1186|logger|field|campdavid.CampDavid|logger|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|campdavid\CampDavid.java|1257|1262|event|param|campdavid.CampDavid|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|campdavid\CampDavid.java|1194|1206|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|campdavid\CampDavid.java|1223|1230|preInit|method|campdavid.CampDavid|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|campdavid\CampDavid.java|1231|1256|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|campdavid\CampDavid.java|1278|1284|logger|field|campdavid.CampDavid|logger
+      @|campdavid\CampDavid.java|1287|1292|event|param|campdavid.CampDavid|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|campdavid\CampDavid.java|1293|1302|getModLog|method|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|getModLog|()Lorg/apache/logging/log4j/Logger;
+      @|campdavid\CampDavid.java|1314|1318|init|method|campdavid.CampDavid|init|()V
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|campdavid\CampDavid.java|1399|1404|event|param|campdavid.CampDavid|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|campdavid\CampDavid.java|1342|1354|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|campdavid\CampDavid.java|1371|1375|init|method|campdavid.CampDavid|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|campdavid\CampDavid.java|1376|1398|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|campdavid\CampDavid.java|1449|1455|logger|field|campdavid.CampDavid|logger
+      @|campdavid\CampDavid.java|1456|1460|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|campdavid\CampDavid.java|1481|1487|Blocks|class|net.minecraft.init.Blocks
+      @|campdavid\CampDavid.java|1488|1492|DIRT|field|net.minecraft.init.Blocks|DIRT
+      @|campdavid\CampDavid.java|1493|1508|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: init()V
+      @|campdavid\CampDavid.java|1599|1603|init|method|campdavid.CampDavid|init|()V
+      @|campdavid\CampDavid.java|1630|1640|basicBlock|field|campdavid.CampDavid|basicBlock
+      @|campdavid\CampDavid.java|1647|1657|BasicBlock|class|campdavid.blocks.BasicBlock
+      @|campdavid\CampDavid.java|1673|1681|Material|class|net.minecraft.block.material.Material
+      @|campdavid\CampDavid.java|1682|1686|ROCK|field|net.minecraft.block.material.Material|ROCK
+   Method End: init()V
+   @|campdavid\CampDavid.java|1742|1747|Block|class|net.minecraft.block.Block
+   @|campdavid\CampDavid.java|1742|1747|Block|class|net.minecraft.block.Block
+   @|campdavid\CampDavid.java|1748|1758|basicBlock|field|campdavid.CampDavid|basicBlock|
+   Method Start: registerBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|campdavid\CampDavid.java|1848|1853|event|param|campdavid.CampDavid|registerBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|campdavid\CampDavid.java|1768|1782|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|campdavid\CampDavid.java|1803|1817|registerBlocks|method|campdavid.CampDavid|registerBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|campdavid\CampDavid.java|1818|1840|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register
+      @|campdavid\CampDavid.java|1841|1846|Block|class|net.minecraft.block.Block
+      @|campdavid\CampDavid.java|1859|1864|event|param|campdavid.CampDavid|registerBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|campdavid\CampDavid.java|1865|1876|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      @|campdavid\CampDavid.java|1879|1890|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|campdavid\CampDavid.java|1891|1901|basicBlock|field|campdavid.CampDavid|basicBlock
+   Method End: registerBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Method Start: registerItemBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|campdavid\CampDavid.java|1997|2002|event|param|campdavid.CampDavid|registerItemBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|campdavid\CampDavid.java|1914|1928|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|campdavid\CampDavid.java|1949|1967|registerItemBlocks|method|campdavid.CampDavid|registerItemBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|campdavid\CampDavid.java|1968|1990|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register
+      @|campdavid\CampDavid.java|1991|1995|Item|class|net.minecraft.item.Item
+      @|campdavid\CampDavid.java|2008|2013|event|param|campdavid.CampDavid|registerItemBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|campdavid\CampDavid.java|2014|2025|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      @|campdavid\CampDavid.java|2028|2039|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|campdavid\CampDavid.java|2044|2053|ItemBlock|class|net.minecraft.item.ItemBlock
+      @|campdavid\CampDavid.java|2054|2064|basicBlock|field|campdavid.CampDavid|basicBlock
+      @|campdavid\CampDavid.java|2066|2081|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|campdavid\CampDavid.java|2082|2092|basicBlock|field|campdavid.CampDavid|basicBlock
+      @|campdavid\CampDavid.java|2093|2108|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: registerItemBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Method Start: registerRenders(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|campdavid\CampDavid.java|2194|2199|event|param|campdavid.CampDavid|registerRenders|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|campdavid\CampDavid.java|2124|2138|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|campdavid\CampDavid.java|2159|2174|registerRenders|method|campdavid.CampDavid|registerRenders|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|campdavid\CampDavid.java|2175|2193|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent
+      @|campdavid\CampDavid.java|2205|2219|registerRender|method|campdavid.CampDavid|registerRender|(Lnet/minecraft/item/Item;)V
+      @|campdavid\CampDavid.java|2220|2224|Item|class|net.minecraft.item.Item
+      @|campdavid\CampDavid.java|2225|2241|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+      @|campdavid\CampDavid.java|2242|2252|basicBlock|field|campdavid.CampDavid|basicBlock
+   Method End: registerRenders(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+   Method Start: registerRender(Lnet/minecraft/item/Item;)V
+      @|campdavid\CampDavid.java|2301|2305|item|param|campdavid.CampDavid|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|campdavid\CampDavid.java|2281|2295|registerRender|method|campdavid.CampDavid|registerRender|(Lnet/minecraft/item/Item;)V
+      @|campdavid\CampDavid.java|2296|2300|Item|class|net.minecraft.item.Item
+      @|campdavid\CampDavid.java|2311|2322|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|campdavid\CampDavid.java|2323|2353|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|campdavid\CampDavid.java|2354|2358|item|param|campdavid.CampDavid|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|campdavid\CampDavid.java|2367|2388|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|campdavid\CampDavid.java|2389|2393|item|param|campdavid.CampDavid|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|campdavid\CampDavid.java|2394|2409|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: registerRender(Lnet/minecraft/item/Item;)V
+Class End  : campdavid.CampDavid
+endProcessing "campdavid\CampDavid.java"
+
+startProcessing "campdavid\blocks\BasicBlock.java" md5: 778d0feba28b2b7f1b7136bf01f67b21
+Cache Hit!
+@|campdavid\blocks\BasicBlock.java|8|24|campdavid.blocks|package|campdavid.blocks|(file)
+Class Start: campdavid.blocks.BasicBlock
+   @|campdavid\blocks\BasicBlock.java|121|131|BasicBlock|class|campdavid.blocks.BasicBlock
+   @|campdavid\blocks\BasicBlock.java|140|145|Block|class|net.minecraft.block.Block
+   Method Start: BasicBlock(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V
+      @|campdavid\blocks\BasicBlock.java|174|178|name|param|campdavid.blocks.BasicBlock|BasicBlock|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|name|0
+      @|campdavid\blocks\BasicBlock.java|189|197|material|param|campdavid.blocks.BasicBlock|BasicBlock|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|material|1
+      @|campdavid\blocks\BasicBlock.java|156|166|BasicBlock|method|campdavid.blocks.BasicBlock|BasicBlock|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V
+      @|campdavid\blocks\BasicBlock.java|167|173|String|class|java.lang.String
+      @|campdavid\blocks\BasicBlock.java|180|188|Material|class|net.minecraft.block.material.Material
+      @|campdavid\blocks\BasicBlock.java|209|217|material|param|campdavid.blocks.BasicBlock|BasicBlock|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|material|1
+      @|campdavid\blocks\BasicBlock.java|222|240|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+      @|campdavid\blocks\BasicBlock.java|241|245|name|param|campdavid.blocks.BasicBlock|BasicBlock|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|name|0
+      @|campdavid\blocks\BasicBlock.java|250|265|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|campdavid\blocks\BasicBlock.java|266|270|name|param|campdavid.blocks.BasicBlock|BasicBlock|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|name|0
+   Method End: BasicBlock(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V
+Class End  : campdavid.blocks.BasicBlock
+endProcessing "campdavid\blocks\BasicBlock.java"
+
+startProcessing "campdavid\init\CampDavidBlocks.java" md5: 144d3799224ca1fab9f4320802250975
+Cache Hit!
+@|campdavid\init\CampDavidBlocks.java|8|22|campdavid.init|package|campdavid.init|(file)
+Class Start: campdavid.init.CampDavidBlocks
+   @|campdavid\init\CampDavidBlocks.java|551|573|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber
+   @|campdavid\init\CampDavidBlocks.java|589|604|CampDavidBlocks|class|campdavid.init.CampDavidBlocks
+   @|campdavid\init\CampDavidBlocks.java|615|620|Block|class|net.minecraft.block.Block
+   @|campdavid\init\CampDavidBlocks.java|615|620|Block|class|net.minecraft.block.Block
+   @|campdavid\init\CampDavidBlocks.java|621|631|basicBlock|field|campdavid.init.CampDavidBlocks|basicBlock|
+   Method Start: init()V
+      @|campdavid\init\CampDavidBlocks.java|655|659|init|method|campdavid.init.CampDavidBlocks|init|()V
+      @|campdavid\init\CampDavidBlocks.java|666|676|basicBlock|field|campdavid.init.CampDavidBlocks|basicBlock
+      @|campdavid\init\CampDavidBlocks.java|683|693|BasicBlock|class|campdavid.blocks.BasicBlock
+      @|campdavid\init\CampDavidBlocks.java|709|717|Material|class|net.minecraft.block.material.Material
+      @|campdavid\init\CampDavidBlocks.java|718|722|ROCK|field|net.minecraft.block.material.Material|ROCK
+   Method End: init()V
+   Method Start: registerBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|campdavid\init\CampDavidBlocks.java|812|817|event|param|campdavid.init.CampDavidBlocks|registerBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|campdavid\init\CampDavidBlocks.java|732|746|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|campdavid\init\CampDavidBlocks.java|767|781|registerBlocks|method|campdavid.init.CampDavidBlocks|registerBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|campdavid\init\CampDavidBlocks.java|782|804|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register
+      @|campdavid\init\CampDavidBlocks.java|805|810|Block|class|net.minecraft.block.Block
+      @|campdavid\init\CampDavidBlocks.java|823|828|event|param|campdavid.init.CampDavidBlocks|registerBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|campdavid\init\CampDavidBlocks.java|829|840|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      @|campdavid\init\CampDavidBlocks.java|843|854|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|campdavid\init\CampDavidBlocks.java|855|865|basicBlock|field|campdavid.init.CampDavidBlocks|basicBlock
+   Method End: registerBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Method Start: registerItemBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|campdavid\init\CampDavidBlocks.java|961|966|event|param|campdavid.init.CampDavidBlocks|registerItemBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|campdavid\init\CampDavidBlocks.java|878|892|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|campdavid\init\CampDavidBlocks.java|913|931|registerItemBlocks|method|campdavid.init.CampDavidBlocks|registerItemBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|campdavid\init\CampDavidBlocks.java|932|954|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register
+      @|campdavid\init\CampDavidBlocks.java|955|959|Item|class|net.minecraft.item.Item
+      @|campdavid\init\CampDavidBlocks.java|972|977|event|param|campdavid.init.CampDavidBlocks|registerItemBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|campdavid\init\CampDavidBlocks.java|978|989|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      @|campdavid\init\CampDavidBlocks.java|992|1003|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|campdavid\init\CampDavidBlocks.java|1008|1017|ItemBlock|class|net.minecraft.item.ItemBlock
+      @|campdavid\init\CampDavidBlocks.java|1018|1028|basicBlock|field|campdavid.init.CampDavidBlocks|basicBlock
+      @|campdavid\init\CampDavidBlocks.java|1030|1045|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|campdavid\init\CampDavidBlocks.java|1046|1056|basicBlock|field|campdavid.init.CampDavidBlocks|basicBlock
+      @|campdavid\init\CampDavidBlocks.java|1057|1072|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: registerItemBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Method Start: registerRenders(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|campdavid\init\CampDavidBlocks.java|1158|1163|event|param|campdavid.init.CampDavidBlocks|registerRenders|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|campdavid\init\CampDavidBlocks.java|1088|1102|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|campdavid\init\CampDavidBlocks.java|1123|1138|registerRenders|method|campdavid.init.CampDavidBlocks|registerRenders|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|campdavid\init\CampDavidBlocks.java|1139|1157|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent
+      @|campdavid\init\CampDavidBlocks.java|1169|1183|registerRender|method|campdavid.init.CampDavidBlocks|registerRender|(Lnet/minecraft/item/Item;)V
+      @|campdavid\init\CampDavidBlocks.java|1184|1188|Item|class|net.minecraft.item.Item
+      @|campdavid\init\CampDavidBlocks.java|1189|1205|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+      @|campdavid\init\CampDavidBlocks.java|1206|1216|basicBlock|field|campdavid.init.CampDavidBlocks|basicBlock
+   Method End: registerRenders(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+   Method Start: registerRender(Lnet/minecraft/item/Item;)V
+      @|campdavid\init\CampDavidBlocks.java|1265|1269|item|param|campdavid.init.CampDavidBlocks|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|campdavid\init\CampDavidBlocks.java|1245|1259|registerRender|method|campdavid.init.CampDavidBlocks|registerRender|(Lnet/minecraft/item/Item;)V
+      @|campdavid\init\CampDavidBlocks.java|1260|1264|Item|class|net.minecraft.item.Item
+      @|campdavid\init\CampDavidBlocks.java|1275|1286|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|campdavid\init\CampDavidBlocks.java|1287|1317|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|campdavid\init\CampDavidBlocks.java|1318|1322|item|param|campdavid.init.CampDavidBlocks|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|campdavid\init\CampDavidBlocks.java|1331|1352|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|campdavid\init\CampDavidBlocks.java|1353|1357|item|param|campdavid.init.CampDavidBlocks|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|campdavid\init\CampDavidBlocks.java|1358|1373|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: registerRender(Lnet/minecraft/item/Item;)V
+Class End  : campdavid.init.CampDavidBlocks
+endProcessing "campdavid\init\CampDavidBlocks.java"
+
