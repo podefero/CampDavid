@@ -5,6 +5,7 @@ import campdavid.blocks.BasicBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.client.event.ModelRegistryEvent;
@@ -19,7 +20,8 @@ public  class CampDavidBlocks {
 	static Block basicBlock;
 	
 	public static void init() {
-		basicBlock = new BasicBlock("basic_block", Material.ROCK);
+		basicBlock = new BasicBlock("basic_block", Material.ROCK).setHardness(1.5f).setCreativeTab(CreativeTabs.MISC);
+		basicBlock.setHarvestLevel("pickaxe", 2);
 	}
 	
 	@SubscribeEvent

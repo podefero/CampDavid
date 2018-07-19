@@ -1,0 +1,5 @@
+item.basic_item.name=Basic Material
+
+tile.basic_block.name=Basic Block
+
+entity.campdavid:basic_entity_mob.name=Basic Mob

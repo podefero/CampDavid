@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "campdavid:basic_block_model" }
+        ]
+    }
+}
