@@ -19,20 +19,22 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public  class CampDavidBlocks {
 	static Block basicBlock;
 	
+	
 	public static void init() {
 		basicBlock = new BasicBlock("basic_block", Material.ROCK).setHardness(1.5f).setCreativeTab(CreativeTabs.MISC);
 		basicBlock.setHarvestLevel("pickaxe", 2);
+		
 	}
 	
 	@SubscribeEvent
 	public static void registerBlocks(RegistryEvent.Register<Block> event) {
 		event.getRegistry().registerAll(basicBlock);
-		
 	}
 	
 	@SubscribeEvent
 	public static void registerItemBlocks(RegistryEvent.Register<Item> event) {
-		event.getRegistry().registerAll(new ItemBlock(basicBlock).setRegistryName(basicBlock.getRegistryName()));
+		event.getRegistry().register(new ItemBlock(basicBlock).setRegistryName(basicBlock.getRegistryName()));
+		
 		
 	}
 	

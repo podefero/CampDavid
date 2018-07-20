@@ -15,32 +15,152 @@ This mapping 'snapshot_20171003' was designed for MC 1.12! Use at your own peril
 :compileApiJava UP-TO-DATE
 :processApiResources UP-TO-DATE
 :apiClasses UP-TO-DATE
-:sourceMainJava
+:sourceMainJava UP-TO-DATE
 :compileJava
-:processResources
+:processResources UP-TO-DATE
 :classes
-:jar
-:sourceTestJava UP-TO-DATE
-:compileTestJava UP-TO-DATE
-:processTestResources UP-TO-DATE
-:testClasses UP-TO-DATE
-:test UP-TO-DATE
-:extractMcpData SKIPPED
-:extractMcpMappings SKIPPED
+:jar UP-TO-DATE
 :getVersionJson
+:extractNatives SKIPPED
 :extractUserdev UP-TO-DATE
-:genSrgs SKIPPED
-:reobfJar
-:extractAnnotationsJar
-:extractRangemapReplacedMain
-C:\MinecraftWorkspace\CampDavid\build\sources\main\java
-:retromapReplacedMain
-remapping source...
-:sourceJar
-:assemble
-:check UP-TO-DATE
-:build
+:getAssetIndex UP-TO-DATE
+:getAssets
+Current status: 792/1283   61%
+:makeStart
+:runServer
+2018-07-19 21:11:47,540 main WARN Disabling terminal, you're running in an unsupported environment.
+[21:11:47] [main/INFO] [GradleStart]: Extra: []
+[21:11:47] [main/INFO] [GradleStart]: Running with arguments: [--tweakClass, net.minecraftforge.fml.common.launcher.FMLServerTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[21:11:47] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[21:11:47] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[21:11:47] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[21:11:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[21:11:47] [main/INFO] [FML]: Forge Mod Loader version 14.23.4.2705 for Minecraft 1.12.2 loading
+[21:11:47] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_111, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_111\jre
+[21:11:48] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[21:11:48] [main/ERROR] [FML]: Full: C:\Users\Nay-Nay\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[21:11:48] [main/ERROR] [FML]: Trimmed: c:/users/nay-nay/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[21:11:48] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[21:11:48] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[21:11:48] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[21:11:48] [main/INFO] [FML]: Searching C:\MinecraftWorkspace\CampDavid\run\.\mods for mods
+[21:11:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[21:11:48] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[21:11:48] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[21:11:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:11:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[21:11:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[21:11:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:11:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:11:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:11:48] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[21:11:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:11:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[21:11:49] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[21:11:49] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[21:11:49] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[21:11:49] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[21:11:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[21:11:54] [Server thread/INFO] [FML]: MinecraftForge v14.23.4.2705 Initialized
+[21:11:54] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[21:11:55] [Server thread/INFO] [FML]: Replaced 1036 ore ingredients
+[21:11:56] [Server thread/INFO] [FML]: Searching C:\MinecraftWorkspace\CampDavid\run\.\mods for mods
+[21:11:57] [Server thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[21:11:57] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[21:11:58] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, campdavid] at CLIENT
+[21:11:58] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, campdavid] at SERVER
+[21:11:59] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[21:11:59] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[21:11:59] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[21:11:59] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[21:11:59] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[21:11:59] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[21:11:59] [Server thread/INFO] [FML]: Applying holder lookups
+[21:11:59] [Server thread/INFO] [FML]: Holder lookups applied
+[21:11:59] [Server thread/INFO] [FML]: Applying holder lookups
+[21:11:59] [Server thread/INFO] [FML]: Holder lookups applied
+[21:11:59] [Server thread/ERROR] [FML]: Exception caught during firing event net.minecraftforge.event.RegistryEvent$Register@71383ffb:
+java.lang.NoClassDefFoundError: net/minecraft/client/renderer/entity/Render
+	at campdavid.init.RenderHandler.registerEntityRenders(RenderHandler.java:13) ~[RenderHandler.class:?]
+	at campdavid.init.CampDavidEntity$RegistrationHandler.registerEntities(CampDavidEntity.java:47) ~[CampDavidEntity$RegistrationHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_4_RegistrationHandler_registerEntities_Register.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:144) ~[EventBus$1.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:752) [GameData.class:?]
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:628) [Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98) [FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:332) [FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.init(DedicatedServer.java:128) [DedicatedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:552) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.Render
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_111]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_111]
+	... 13 more
+Caused by: net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerException: Exception in class transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer@159a48a6 from coremod FMLCorePlugin
+	at net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerWrapper.transform(ASMTransformerWrapper.java:262) ~[forgeSrc-1.12.2-14.23.4.2705.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_111]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_111]
+	... 13 more
+Caused by: java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/Render for invalid side SERVER
+	at net.minecraftforge.fml.common.asm.transformers.SideTransformer.transform(SideTransformer.java:62) ~[forgeSrc-1.12.2-14.23.4.2705.jar:?]
+	at net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerWrapper.transform(ASMTransformerWrapper.java:258) ~[forgeSrc-1.12.2-14.23.4.2705.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_111]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_111]
+	... 13 more
+[21:12:00] [Server thread/ERROR] [FML]: Index: 2 Listeners:
+[21:12:00] [Server thread/ERROR] [FML]: 0: NORMAL
+[21:12:00] [Server thread/ERROR] [FML]: 1: net.minecraftforge.fml.common.eventhandler.EventBus$1@6850034f
+[21:12:00] [Server thread/ERROR] [FML]: 2: net.minecraftforge.fml.common.eventhandler.EventBus$1@7a15f4b9
+[21:12:00] [Server thread/ERROR] [FML]: 3: net.minecraftforge.fml.common.eventhandler.EventBus$1@b25ebd4
+[21:12:00] [Server thread/ERROR] [FML]: 4: net.minecraftforge.fml.common.eventhandler.EventBus$1@7d9a3369
+[21:12:00] [Server thread/ERROR] [FML]: 5: net.minecraftforge.fml.common.eventhandler.EventBus$1@15b81dee
+[21:12:00] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: Encountered an unexpected exception
+java.lang.NoClassDefFoundError: net/minecraft/client/renderer/entity/Render
+	at campdavid.init.RenderHandler.registerEntityRenders(RenderHandler.java:13) ~[RenderHandler.class:?]
+	at campdavid.init.CampDavidEntity$RegistrationHandler.registerEntities(CampDavidEntity.java:47) ~[CampDavidEntity$RegistrationHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_4_RegistrationHandler_registerEntities_Register.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:144) ~[EventBus$1.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) ~[EventBus.class:?]
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:752) ~[GameData.class:?]
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:628) ~[Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98) ~[FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:332) ~[FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.init(DedicatedServer.java:128) ~[DedicatedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:552) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.Render
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_111]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_111]
+	... 13 more
+Caused by: net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerException: Exception in class transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer@159a48a6 from coremod FMLCorePlugin
+	at net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerWrapper.transform(ASMTransformerWrapper.java:262) ~[forgeSrc-1.12.2-14.23.4.2705.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_111]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_111]
+	... 13 more
+Caused by: java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/Render for invalid side SERVER
+	at net.minecraftforge.fml.common.asm.transformers.SideTransformer.transform(SideTransformer.java:62) ~[forgeSrc-1.12.2-14.23.4.2705.jar:?]
+	at net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerWrapper.transform(ASMTransformerWrapper.java:258) ~[forgeSrc-1.12.2-14.23.4.2705.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_111]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_111]
+	... 13 more
+[21:12:00] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: This crash report has been saved to: C:\MinecraftWorkspace\CampDavid\run\.\crash-reports\crash-2018-07-19_21.12.00-server.txt
+[21:12:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[21:12:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[21:12:00] [Server thread/INFO] [FML]: The state engine was in incorrect state INITIALIZATION and forced into state SERVER_STOPPED. Errors may have been discarded.
 
 BUILD SUCCESSFUL
 
-Total time: 15.896 secs
+Total time: 28.885 secs

@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "campdavid:blocks/basic_block_texture"
+    }
+}
