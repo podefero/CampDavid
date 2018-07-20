@@ -3,90 +3,51 @@ package campdavid.model;
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.model.ModelRenderer;
 import net.minecraft.entity.Entity;
+import net.minecraft.util.math.MathHelper;
 
 /**
  * ModelPlayer - Either Mojang or a mod author
  * Created using Tabula 7.0.0
  */
 public class ModelBasicEntityMob extends ModelBase {
-    public ModelRenderer field_178736_x;
-    public ModelRenderer field_178729_w;
-    public ModelRenderer field_178734_a;
-    public ModelRenderer field_178731_d;
-    public ModelRenderer field_178732_b;
-    public ModelRenderer field_178720_f;
-    public ModelRenderer field_178733_c;
-    public ModelRenderer field_178723_h;
-    public ModelRenderer field_178721_j;
-    public ModelRenderer field_78116_c;
-    public ModelRenderer field_78115_e;
-    public ModelRenderer field_178724_i;
-    public ModelRenderer field_178722_k;
-    public ModelRenderer field_178730_v;
+    public ModelRenderer leftarm;
+    public ModelRenderer head;
+    public ModelRenderer rightarm;
+    public ModelRenderer rightleg;
+    public ModelRenderer leftleg;
+    public ModelRenderer body;
 
     public ModelBasicEntityMob() {
         this.textureWidth = 64;
         this.textureHeight = 64;
-        this.field_178722_k = new ModelRenderer(this, 16, 48);
-        this.field_178722_k.setRotationPoint(1.899999976158142F, 12.0F, 0.0F);
-        this.field_178722_k.addBox(-2.0F, 0.0F, -2.0F, 4, 12, 4, 0.0F);
-        this.field_178733_c = new ModelRenderer(this, 0, 48);
-        this.field_178733_c.setRotationPoint(1.899999976158142F, 12.0F, 0.0F);
-        this.field_178733_c.addBox(-2.0F, 0.0F, -2.0F, 4, 12, 4, 0.25F);
-        this.field_178723_h = new ModelRenderer(this, 40, 16);
-        this.field_178723_h.setRotationPoint(-5.0F, 2.0F, 0.0F);
-        this.field_178723_h.addBox(-3.0F, -2.0F, -2.0F, 4, 12, 4, 0.0F);
-        this.field_178720_f = new ModelRenderer(this, 32, 0);
-        this.field_178720_f.setRotationPoint(0.0F, 0.0F, 0.0F);
-        this.field_178720_f.addBox(-4.0F, -8.0F, -4.0F, 8, 8, 8, 0.5F);
-        this.field_178721_j = new ModelRenderer(this, 0, 16);
-        this.field_178721_j.setRotationPoint(-1.899999976158142F, 12.0F, 0.0F);
-        this.field_178721_j.addBox(-2.0F, 0.0F, -2.0F, 4, 12, 4, 0.0F);
-        this.field_178731_d = new ModelRenderer(this, 0, 32);
-        this.field_178731_d.setRotationPoint(-1.899999976158142F, 12.0F, 0.0F);
-        this.field_178731_d.addBox(-2.0F, 0.0F, -2.0F, 4, 12, 4, 0.25F);
-        this.field_178732_b = new ModelRenderer(this, 40, 32);
-        this.field_178732_b.setRotationPoint(-5.0F, 2.0F, 10.0F);
-        this.field_178732_b.addBox(-3.0F, -2.0F, -2.0F, 4, 12, 4, 0.25F);
-        this.field_178736_x = new ModelRenderer(this, 24, 0);
-        this.field_178736_x.setRotationPoint(0.0F, 0.0F, 0.0F);
-        this.field_178736_x.addBox(-3.0F, -6.0F, -1.0F, 6, 6, 1, 0.0F);
-        this.field_78116_c = new ModelRenderer(this, 0, 0);
-        this.field_78116_c.setRotationPoint(0.0F, 0.0F, 0.0F);
-        this.field_78116_c.addBox(-4.0F, -8.0F, -4.0F, 8, 8, 8, 0.0F);
-        this.field_178730_v = new ModelRenderer(this, 16, 32);
-        this.field_178730_v.setRotationPoint(0.0F, 0.0F, 0.0F);
-        this.field_178730_v.addBox(-4.0F, 0.0F, -2.0F, 8, 12, 4, 0.25F);
-        this.field_178729_w = new ModelRenderer(this, 0, 0);
-        this.field_178729_w.setRotationPoint(0.0F, 0.0F, 0.0F);
-        this.field_178729_w.addBox(-5.0F, 0.0F, -1.0F, 10, 16, 1, 0.0F);
-        this.field_78115_e = new ModelRenderer(this, 16, 16);
-        this.field_78115_e.setRotationPoint(0.0F, 0.0F, 0.0F);
-        this.field_78115_e.addBox(-4.0F, 0.0F, -2.0F, 8, 12, 4, 0.0F);
-        this.field_178734_a = new ModelRenderer(this, 48, 48);
-        this.field_178734_a.setRotationPoint(5.0F, 2.0F, 0.0F);
-        this.field_178734_a.addBox(-1.0F, -2.0F, -2.0F, 4, 12, 4, 0.25F);
-        this.field_178724_i = new ModelRenderer(this, 32, 48);
-        this.field_178724_i.setRotationPoint(5.0F, 2.0F, 0.0F);
-        this.field_178724_i.addBox(-1.0F, -2.0F, -2.0F, 4, 12, 4, 0.0F);
+        this.leftleg = new ModelRenderer(this, 16, 48);
+        this.leftleg.setRotationPoint(1.9F, 12.0F, 0.0F);
+        this.leftleg.addBox(-2.0F, 0.0F, -2.0F, 4, 12, 4, 0.0F);
+        this.body = new ModelRenderer(this, 16, 32);
+        this.body.setRotationPoint(0.0F, 0.0F, 0.0F);
+        this.body.addBox(-4.0F, 0.0F, -2.0F, 8, 12, 4, 0.25F);
+        this.rightarm = new ModelRenderer(this, 40, 16);
+        this.rightarm.setRotationPoint(-5.0F, 2.0F, 0.0F);
+        this.rightarm.addBox(-3.0F, -2.0F, -2.0F, 4, 12, 4, 0.0F);
+        this.rightleg = new ModelRenderer(this, 0, 16);
+        this.rightleg.setRotationPoint(-1.9F, 12.0F, 0.0F);
+        this.rightleg.addBox(-2.0F, 0.0F, -2.0F, 4, 12, 4, 0.0F);
+        this.leftarm = new ModelRenderer(this, 48, 48);
+        this.leftarm.setRotationPoint(5.0F, 2.0F, 0.0F);
+        this.leftarm.addBox(-1.0F, -2.0F, -2.0F, 4, 12, 4, 0.25F);
+        this.head = new ModelRenderer(this, 32, 0);
+        this.head.setRotationPoint(0.0F, 0.0F, 0.0F);
+        this.head.addBox(-4.0F, -8.0F, -4.0F, 8, 8, 8, 0.5F);
     }
 
     @Override
     public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5) { 
-        this.field_178722_k.render(f5);
-        this.field_178733_c.render(f5);
-        this.field_178723_h.render(f5);
-        this.field_178720_f.render(f5);
-        this.field_178721_j.render(f5);
-        this.field_178731_d.render(f5);
-        this.field_178732_b.render(f5);
-        this.field_178736_x.render(f5);
-        this.field_78116_c.render(f5);
-        this.field_178730_v.render(f5);
-        this.field_178729_w.render(f5);
-        this.field_78115_e.render(f5);
-        this.field_178734_a.render(f5);
-        this.field_178724_i.render(f5);
+        this.leftleg.render(f5);
+        this.body.render(f5);
+        this.rightarm.render(f5);
+        this.rightleg.render(f5);
+        this.leftarm.render(f5);
+        this.head.render(f5);
     }
 
     /**
@@ -96,5 +57,19 @@ public class ModelBasicEntityMob extends ModelBase {
         modelRenderer.rotateAngleX = x;
         modelRenderer.rotateAngleY = y;
         modelRenderer.rotateAngleZ = z;
+    }
+    
+    @Override
+    public void setRotationAngles(float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch, float scaleFactor, Entity entityIn) {
+    	this.leftleg.rotateAngleX = MathHelper.cos(limbSwing * 0.662F) * 1.4F * limbSwingAmount;
+    	this.rightleg.rotateAngleX = MathHelper.cos(limbSwing * 0.662F + (float)Math.PI) * 1.4F * limbSwingAmount;
+    	
+    	this.head.rotateAngleX = netHeadYaw * 0.0027F;
+    	this.head.rotateAngleY = headPitch * 0.0027F;
+    	
+    	this.rightarm.rotateAngleX = MathHelper.cos(limbSwing * 0.662F) * 1.4F * limbSwingAmount;
+    	this.leftarm.rotateAngleX = MathHelper.cos(limbSwing * 0.662F + (float)Math.PI) * 1.4F * limbSwingAmount;
+    	
+
     }
 }

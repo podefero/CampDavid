@@ -3,3 +3,5 @@ https://www.youtube.com/watch?v=p6FFl3yN18M  ---- Creating a entity, entity mode
 https://www.suppergerrie2.com/minecraft-1-12-modding-with-forge-3-custom-item/ -- goes over items, blocks, tileentity, enchantment, recipes, and others
 
 https://github.com/suppergerrie2/ForgeTutorial/tree/master/src/main/java/com/suppergerrie2/tutorial -- full project source code of above tutorial. 
+
+Jabelar's Minecraft Forge Modding Tutorials -- covers many topics. 

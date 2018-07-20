@@ -39,7 +39,7 @@ public class CampDavidEntity {
 					createBuilder("basic_entity_mob")
 							.entity(BasicEntityMob.class)
 							.tracker(80, 3, true)
-							.egg(0x0DA70B, 0x101010)
+							.egg(0x4286f4, 0xf44141)
 							.build(),
 			};
 
@@ -54,7 +54,7 @@ public class CampDavidEntity {
 		 * Add this mod's entity spawns.
 		 */
 		private static void addSpawns() {
-			EntityRegistry.addSpawn(BasicEntityMob.class, 100, 5, 20, EnumCreatureType.MONSTER, Biomes.DEFAULT);
+			EntityRegistry.addSpawn(BasicEntityMob.class, 100, 5, 20, EnumCreatureType.MONSTER, getBiomes(BiomeDictionary.Type.PLAINS));
 			//copySpawns(EntityPlayerAvoidingCreeper.class, EnumCreatureType.MONSTER, EntityCreeper.class, EnumCreatureType.MONSTER);
 		}
 

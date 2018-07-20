@@ -9,7 +9,7 @@ import net.minecraft.util.ResourceLocation;
 
 public class RenderBasicEntityMob extends RenderLiving<BasicEntityMob>{
 	
-	public static final ResourceLocation TEXTURES = new ResourceLocation(CampDavid.MODID + ":" + "assets/textures/entities/basic_entity_mob.png");
+	public static final ResourceLocation TEXTURES = new ResourceLocation(CampDavid.MODID + ":" + "textures/entities/basic_entity_mob.png");
 
 	public RenderBasicEntityMob(RenderManager rendermanagerIn) {
 		super(rendermanagerIn, new ModelBasicEntityMob(), 0.5f);
@@ -26,4 +26,7 @@ public class RenderBasicEntityMob extends RenderLiving<BasicEntityMob>{
 	protected void applyRotations(BasicEntityMob entityLiving, float p_77043_2_, float rotationYaw, float partialTicks ) {
 		super.applyRotations(entityLiving, p_77043_2_, rotationYaw, partialTicks);
 	}
+	
+	
+	
 }
